@@ -1,0 +1,39 @@
+Artificial Intelligence (AI)
+
+Artificial Intelligence (AI) is a branch of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. These tasks include learning, reasoning, problem-solving, understanding language, recognizing images, and making decisions. AI is used in applications such as virtual assistants, recommendation systems, self-driving cars, medical diagnosis, fraud detection, and chatbots like ChatGPT.
+
+Machine Learning (ML)
+
+Machine Learning (ML) is a subset of Artificial Intelligence that enables computers to learn from data without being explicitly programmed. Instead of following fixed rules, ML algorithms identify patterns in data and use those patterns to make predictions or decisions. Common applications include spam email detection, movie recommendations, speech recognition, image classification, and predicting stock prices. Machine learning models improve their performance as they are trained on more data.
+
+Python
+
+Python is a high-level, easy-to-read programming language widely used in artificial intelligence, machine learning, data science, web development, automation, and software development. Python has a simple syntax and a large collection of libraries, making it one of the most popular languages for beginners and professionals. Popular AI libraries include NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, and Transformers.
+
+Retrieval-Augmented Generation (RAG)
+
+Retrieval-Augmented Generation (RAG) is an AI architecture that combines information retrieval with a Large Language Model (LLM). Instead of relying only on the model's internal knowledge, RAG first searches a knowledge base, retrieves the most relevant documents, and provides them as context to the LLM before generating an answer. This approach improves accuracy, reduces hallucinations, and allows the AI to answer questions using up-to-date or organization-specific information.
+
+Embeddings
+
+Embeddings are numerical vector representations of text, images, or other types of data. They capture the semantic meaning of the data so that items with similar meanings have similar vector representations. In RAG systems, text documents and user queries are converted into embeddings, allowing the system to find the most relevant information through similarity search.
+
+FAISS
+
+FAISS (Facebook AI Similarity Search) is an open-source library developed by Meta for efficient similarity search and clustering of dense vectors. It is commonly used in RAG applications to quickly search millions of embeddings and retrieve the most relevant documents based on vector similarity. FAISS supports both CPU and GPU implementations, making it suitable for large-scale AI systems.
+
+Vector Database
+
+A vector database is a specialized database designed to store, index, and search vector embeddings efficiently. Unlike traditional databases that search using exact keywords, vector databases search based on semantic similarity. Popular vector databases include FAISS, ChromaDB, Pinecone, Milvus, Weaviate, and Qdrant. They are widely used in RAG systems, semantic search, recommendation systems, and AI assistants.
+
+Large Language Models (LLMs)
+
+Large Language Models (LLMs) are advanced AI models trained on massive amounts of text data to understand and generate human-like language. They can answer questions, summarize documents, translate languages, generate code, write essays, and engage in conversations. Examples of LLMs include GPT, Llama, Gemini, Claude, and Mistral. In a RAG system, the LLM uses the retrieved documents as context to generate more accurate and relevant responses.
+
+Portable Document Format (PDF)
+
+PDF stands for Portable Document Format, a file format developed to present documents consistently across different devices and operating systems. PDFs preserve the layout, fonts, images, and formatting of a document. In RAG systems, PDFs are commonly used as knowledge sources. The text is extracted from PDF files, split into smaller chunks, converted into embeddings, and stored in a vector database for retrieval.
+
+Natural Language Processing (NLP)
+
+Natural Language Processing (NLP) is a field of Artificial Intelligence that enables computers to understand, interpret, analyze, and generate human language. NLP combines linguistics, computer science, and machine learning. Common NLP tasks include text classification, sentiment analysis, named entity recognition, machine translation, question answering, text summarization, and chatbot development. NLP is a core component of modern AI applications, including RAG systems and Large Language Models.
