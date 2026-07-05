@@ -29,13 +29,12 @@ pipe = pipeline(
 llm = HuggingFacePipeline(pipeline=pipe)
 ques=input("Ask your question about RAG: ")
 def rag_chain(question):
-    # 1. Retrieve similar docs
+   
     docs = retriever.invoke(question)
 
-    # 2. Combine the doc text
+
     context = "\n\n".join([d.page_content for d in docs])
 
-    # 3. Format the prompt
     prompt_text = f"""
 You are an AI assistant. Use ONLY the provided context to answer.
 If the answer is not in the context, say "I don't know".
