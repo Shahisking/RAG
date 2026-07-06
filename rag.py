@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-loader = TextLoader("RAG.txt", encoding="utf-8")
+loader = TextLoader("RAG.txt" )
 docs = loader.load()
 
 splitter = RecursiveCharacterTextSplitter(chunk_size=300, chunk_overlap=50)
